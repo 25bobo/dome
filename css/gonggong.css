@@ -1,0 +1,264 @@
+ html,body,p,ul,li,ol,table,tr,td,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+/*盒子一背景*/
+#top{
+	width: 100%;
+	min-width: 1000px;
+	height: 179px;
+	background: url(../img/top_bg.gif);
+	padding-top: 3px;
+}
+#top1{
+	margin: auto;
+	width: 1000px;
+	height: 182px;
+	background-image: url(../img/lgbj.png);
+}
+#top1 ul{
+	margin-left: 40px;
+}
+/*里面的文字*/
+#top1-1 ul li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin: 0 1px;
+	padding-top: 10px;
+	text-align: right;
+}
+#top1-1 ul li a{
+	font-family:"微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+	color:black;
+}
+#top1-1 ul li:hover a{
+	color: red;
+}
+#top1-1 ul li:hover span{
+	color: black;
+}
+#top1-1 ul li span{
+	display: block;
+	font-size: 10px;
+	color: gray;
+	font-weight: 200;
+}
+#dierzhangtu{
+	/*position: absolute;*/
+	width: 100%;
+	min-width: 1000px;
+	height: 465px;
+	background: url(../img/mn.gif) center;
+	position: relative;/*相对定位*/
+}
+#dierge{
+		/*边框和背景*/
+		/*border: 1px solid royalblue;
+		background: yellow;*/
+	width: 1000px;
+	height: 34px;
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -500px;
+}
+#dierge ul li{
+	float: left;
+	width: 218px;
+	height: 34px;
+	line-height: 35px;
+	background: rgba(0,0,0,0.5);
+	margin: 0 1px;
+	text-align: center;
+	color: white;
+}
+#dierge ul li:hover{
+	background: red;
+}
+#dierge ul li:nth-child(1){
+	width: 57px;
+	height: 34px;
+	background: url(../img/arr.png) /*no-repeat*/;
+	background-position: 0 0;
+	margin-right: 3px;
+}
+#dierge ul li:nth-child(6){
+	width: 57px;
+	height: 34px;
+	background: url(../img/arr.png);
+	background-position: -57px 0;
+	float: right;
+}
+#dierge ul li:nth-child(1):hover{
+	background-position: 0 -34px;
+}
+#dierge ul li:nth-child(6):hover{
+	background-position: -57px -34px;
+}
+
+
+/*第三个盒子*/
+#disange{
+	margin: 1px auto;
+	width: 1000px;
+	height: 98px;
+	background: url(../img/qqt.png);
+}
+/*鼠标移到上面变成小手*/
+#disange-con{
+	display:inline-block;/*内联块级元素*/
+	/*display: block;*/ /*块级元素*/
+	width: 187px;
+	height: 98px;
+	margin-left:262px;
+}
+#disange-xin{
+	display: inline-block;
+	width: 41px;
+	height: 41px;
+	margin-left:20px;
+	margin-bottom:12px;
+	border-radius:100%;
+}
+#disange-kong{
+	display: inline-block;
+	width: 41px;
+	height: 41px;
+	margin-left:-5px;
+	margin-bottom: 12px;
+	border-radius: 100%;
+}
+#disange-teng{
+	display: inline-block;
+	width: 41px;
+	height: 41px;
+	margin-left:-5px;
+	margin-bottom: 12px;
+	border-radius: 100%;
+}
+/*广告页结束*/
+
+/*中间内容*/
+
+#heikuai{
+	width: 100%;
+	min-width: 1000px;
+	height: 500px;
+	background: #2E2E2E;
+}
+/*回到顶部*/
+#heikuai-tupian{
+	width: 1000PX;
+	height: 240px;
+	margin: auto;
+	position: relative;
+}
+#heikuai-tupian-bg{
+	width: 300px;
+	height: 240px;
+	background: url(../img/bottom.gif) no-repeat;
+	position: relative;
+	float: left;
+}
+#heikuai-tupian-bg p{
+	position: absolute;
+	color: #979797;
+    line-height: 18px;
+    font-size: 11px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+#heikuai-tupian-bg p:nth-child(1){
+    top: 145px;
+    left: 125px;
+}
+#heikuai-tupian-bg p:nth-child(2){
+    top: 184px;
+    left: 125px;
+}
+#heikuai-tupian ul{
+	width: 162px;
+	height: auto;
+	float: left;
+	margin: 10px 6px;
+}
+#heikuai-tupian ul li a{
+	width: 162px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #979797;
+}
+#heikuai-tupian ul li:nth-child(1){
+	background: black;
+	padding-left: 15px;
+	width: 147px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+#heikuai-tupian ul li:hover{
+	cursor: pointer;
+	background: #676767;
+	color: white;
+}
+#heikuai-tupian-top{
+	display: block;
+	width: 58px;
+	height: 27px;
+	background: url(../img/top.gif) no-repeat;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#heikuai-ad-bg{
+	width: 100%;
+	min-width: 1000px;
+	height: 112px;
+	margin-top: 20px;
+	background:url(../img/bg8.gif) repeat-x;
+}
+#heikuai-ad-tu{
+	width: 1000px;
+	height: 112px;
+	margin: auto;
+	background: url(../img/ad.png) no-repeat;
+}
+#heikuai-lian{
+	width: 100%;
+	min-width: 1000px;
+	height: 70px;
+	background: #191919;
+}
+#heikuai-lian div{
+	width: 1000px;
+	height: 50px;
+	margin: auto;
+	color: white;
+	font-size: 12px;
+	padding-top: 20px;
+}
+#heikuai-bottom{
+	width: 100%;
+	min-width: 1000px;
+	height: 100px;
+	background: black;
+}
+#heikuai-bottom div{
+	width: 1000px;
+	height: 100px;
+	line-height: 30px;
+	margin: auto;
+	color: #979797;
+	font-size: 12px;
+}

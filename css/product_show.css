@@ -1,0 +1,80 @@
+.center{
+	width: 1000px;
+	height: 800px;
+	margin: 10px auto;
+	background: gainsboro;
+}
+.center>p{
+	text-align: center;	 /*文字横向居中*/
+	font-size: 20px;
+	font-weight: bold;     /*字体加粗*/
+	padding-top: 10px;
+}
+.text-top {
+	margin: 10px 10px;
+}
+.text-top a{
+	font-size: 13px;
+	color: gray;
+}
+.text-top a:hover{
+	color: red;
+}
+.xiaotupian{
+	width: 467px;
+	height: 72px;
+	margin: auto;
+}
+.xiaotupian ul li:hover{
+	background: url(../img/kuang2.gif);
+}
+/*如果有单独ul li 不需要hover 后显示的边框 就把hover放到不需要的ul li前面*/
+.xiaotupian ul li:nth-child(1){
+	width: 13px;
+	height: 43px;
+	float: left;
+	background:url(../img/jian_left.gif);
+	margin-top: 14px;
+	/*background: none;*/    /*去掉背景颜色*/
+}
+
+.xiaotupian ul li:nth-child(7){
+	width: 13px;
+	height: 43px;
+	float: right;
+	background:url(../img/jian_right.gif);
+	margin-top: 14px;
+}
+
+.xiaotupian ul li{
+	width:84px;
+	height: 84px;
+	background: url(../img/kuang1.gif);
+	float: left;
+	margin-left: 3px;
+}
+.tu{
+	width: 80px;
+	height: 60px;
+	float: left;
+	background: url(../img/heng.jpg);
+	background-size: cover;
+	position: relative;
+	margin: 2px 2px;
+}
+
+.tu p{
+	color: white;
+	background: black;
+	bottom: 0;
+	position: absolute;
+}
+
+/*大图*/
+.datu{
+	width: 615px;
+	height: 767px;
+	background: url(../img/shu.png);
+	margin:20px auto;
+	
+}

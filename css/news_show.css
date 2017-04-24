@@ -1,0 +1,163 @@
+.zhongjian{
+	margin:20px auto;
+	width: 1000px;
+	height: 940px;
+}
+.wenz-tou{
+	width: 980px;
+	height: 20px;
+	padding: 10px 10px;
+}
+.wenz-tou b{
+	font-size: 15px;
+}
+.wenz-tou a{
+	color: gray;
+	font-size: 12px;
+}
+.wenz-left{
+	width: 680px;
+	height: auto;
+	float: left;
+}
+.wenz-left img:nth-child(1){
+	width: 620px;
+	height:67px;
+}
+.dazhi{
+	width: 680px;
+	height: 50px;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;  /*文本水平居中*/
+}
+.dazhi a{
+	color:black;
+}
+.dazhi:hover{
+	background: red;
+}
+.dazhi:hover a{
+	color: white;
+}
+.xiaozi p{
+	width: 680px;
+	height: 45px;
+	font-size: 14px;
+	line-height: 15px;
+}
+.tupian{
+	width: 660px;
+	height: 410px;
+	background: url(../img/heying.png);
+	margin-left: 9px;
+}
+.jieshuo p{
+	font-size: 13px;
+	margin-top: 10px;
+	line-height: 16px;
+}
+.jieshuo p a{
+	padding-left: 19px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    width: 48px;
+    color: black;
+    font-size: 12px;
+}
+.jieshuo p a:nth-child(1){
+	background:url(../img/xinlang.png) no-repeat left;
+}
+.jieshuo p a:nth-child(2){
+	background:url(../img/ico_tengxun.png) no-repeat left;
+}
+.jieshuo p a:nth-child(3){
+	background:url(../img/qq.png) no-repeat left;
+}
+.jieshuo p a:nth-child(4){
+	background:url(../img/ico_renren.png) no-repeat left;
+}
+.jieshuo p a:nth-child(5){
+	background:url(../img/ico_kaixin.png) no-repeat left;
+}
+.jieshuo p a:nth-child(6){
+	background:url(../img/ico_dou.png) no-repeat left;
+	width: 35px;
+}
+.jieshuo p a:nth-child(7){
+	background:url(../img/ico_tao.png) no-repeat left;
+}
+.jieshuo p a:nth-child(8){
+	background:url(../img/ico_jia.png) no-repeat left;
+	width: 35px;
+}
+.jieshuo p a:nth-child(9){
+	background:url(../img/ico_kuang.png) no-repeat left;
+	width: 20px;
+}
+
+/*右边文字*/
+.wenz-right{
+	width: 290px;
+	height: auto;
+	float: right;
+}
+.wenz-right-hh{
+	width: 255px;
+    height: 33px;
+    background: url(../img/libg16.gif) no-repeat;
+    padding-left: 35px;
+    line-height: 33px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.wenz-right-hh-1 li a{
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	font-size: 13px;
+	background: url(../img/libg5.gif) no-repeat;
+	padding-left: 20px;
+	margin-top: 3px;
+	color: black;
+}
+.wenz-right-hh-1 li a:hover{
+	background-color: red;
+	background-position-y: -28px;
+	color: white;
+}
+.beijing{
+	width: 290px;
+	height: 33px;
+	background: url(../img/libg16.gif);
+	margin-top: 10px;
+}
+.beijing p{
+	width: 255px;
+	height: 33px;
+	font-size: 15px;
+	line-height: 33px;
+	color: white;
+	margin-left: 35px;
+	font-weight: bold;   /*字体加粗*/
+}
+.tieta li{
+	width: 130px;
+	height: 120px;
+    padding:5px 7px;
+	float: left;
+}
+.tieta li a img{
+	border: 1px solid gray;
+    padding: 1px;
+}
+.tieta li a p{
+	font-size: 13px;
+	color: black;
+	margin-top: 5px;
+}
+.tieta li:hover a p{
+	color: red;
+}
